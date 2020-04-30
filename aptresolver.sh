@@ -9,7 +9,7 @@ fi
 fileLista="/etc/apt/source.list"
 echo "Inserisci nome della repository da aggiungere"
 read NOMEREPO
-echo "deb http://ppa.launchpad.net/$NOMEREPO/ppa/ubuntu buster main" >> $fileLista
+echo "deb http://ppa.launchpad.net/$NOMEREPO/ppa/ubuntu buster main" >> $fileLista #buser è il codename dell'ultima versione di Debian
 #Inserisce riga alla source list
 echo "deb-src http://ppa.launchpad.net/$NOMEREPO/ppa/ubuntu buster main " >> $fileLista #Inserisce riga alla source list
 echo "Inserisci il fingerprint della repository"
