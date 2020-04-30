@@ -3,7 +3,7 @@
 clear
 echo "[Jonio APTResolver]"
 if [ `id -u` != 0 ]; then
-   echo "E: Permission Denied!" 
+   echo "E: Permesso Negato" 
    exit 1
 fi
 fileLista="/etc/apt/source.list"
