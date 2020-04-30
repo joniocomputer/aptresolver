@@ -1,7 +1,7 @@
 #!/bin/bash
 
 clear
-echo "\e[7m[Jonio AddRepo]""\e[0m"
+echo "[Jonio APTResolver]"
 if [ `id -u` != 0 ]; then
    echo "E: Permission Denied!" 
    exit 1
